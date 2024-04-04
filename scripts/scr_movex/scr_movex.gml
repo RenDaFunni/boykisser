@@ -29,5 +29,14 @@ function scr_movex(){
 		sprite_index = spr_player_idle
 		image_speed = 0.25
 	}
+	if place_meeting(x,y+groundbuffer,obj_slope) {
+		vsp = msp / 2
+	}
+	if place_meeting(x+hsp,y,obj_slope) {
+		while place_meeting(x,y-1,obj_slope) {
+			y -= 1
+		}
+		y -= 1
+	}
 	scr_colisx()
 }
