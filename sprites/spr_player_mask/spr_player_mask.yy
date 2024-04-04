@@ -5,7 +5,7 @@
   "bbox_bottom": 92,
   "bbox_left": 38,
   "bbox_right": 63,
-  "bbox_top": 26,
+  "bbox_top": 32,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Player",
+    "path": "folders/Sprites/Player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

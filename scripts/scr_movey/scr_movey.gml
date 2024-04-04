@@ -4,9 +4,14 @@ function scr_movey(){
 	vsp += 0.4
 	fall += 1
 	if keyboard_check(vk_space) {
-		if fall < 5 {
-			vsp = -8
+		jump += 1
+		if fall < 5 && jump > 0 {
+			if jump < 6 {
+				vsp = -9.5
+			}
 		}
+	}else{
+		jump = 0
 	}
 	scr_colisy()
 }

@@ -6,7 +6,9 @@ function scr_colisy(){
 			y += sign(vsp)
 		}
 		if vsp > 0 {
-		fall = 0
+			fall = 0
+		}else{
+			jump = 99
 		}
 		vsp = 0
 	}
